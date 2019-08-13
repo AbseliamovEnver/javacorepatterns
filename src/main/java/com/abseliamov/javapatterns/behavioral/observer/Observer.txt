@@ -1,0 +1,12 @@
+Observer (Наблюдатель) - позволяет одним обьектам следить и реагировать на события,
+происходящие в других объектах.
+
+Хороший пример: люди, ищущие работу, подписываются на публикации на сайтах вакансий
+и получают уведомления, когда появляются вакансии, подходящие по параметрам.
+
+Примеры применения паттерна проектирования Observer в JDK:
+    java.util.Observer/java.util.Observable
+    реализации java.util.EventListener
+    javax.servlet.http.HttpSessionBindingListener
+    javax.servlet.http.HttpSessionAttributeListener
+    javax.faces.event.PhaseListener

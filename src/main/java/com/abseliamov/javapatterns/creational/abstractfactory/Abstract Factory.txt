@@ -1,0 +1,11 @@
+Abstract Factory (Абстрактная фабрика) - используем супер фабрику для создания фабрики,
+затем используем созданную фабрику для создания объектов.
+
+Абстрактная фабрика - это фабрика фабрик.
+То есть фабрика, группирующая индивидуальные, но взаимосвязанные/взаимозависимые фабрики
+без указания для них конкретных классов.
+
+Примеры применения паттерна проектирования Abstract Factory в JDK:
+    javax.xml.parsers.DocumentBuilderFactory#newInstance()
+    javax.xml.transform.TransformerFactory#newInstance()
+    javax.xml.xpath.XPathFactory#newInstance()

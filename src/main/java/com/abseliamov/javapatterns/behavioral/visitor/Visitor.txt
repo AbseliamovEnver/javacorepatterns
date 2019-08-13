@@ -1,0 +1,8 @@
+Visitor (Посетитель) - используется для упрощения операций над группировками связанных объектов.
+
+Шаблон «Посетитель» позволяет добавлять будущие операции для объектов без их модифицирования.
+
+Примеры применения паттерна проектирования Visitor в JDK:
+    javax.lang.model.element.AnnotationValue и AnnotationValueVisitor
+    javax.lang.model.element.Element и ElementVisitor
+    javax.lang.model.type.TypeMirror и TypeVisitor

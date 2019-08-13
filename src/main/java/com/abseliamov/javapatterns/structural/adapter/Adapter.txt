@@ -1,0 +1,11 @@
+Adapter (Адаптер) - это конвертер между двумя несовместимыми объектами.
+Используя паттерн адаптера, мы можем объединить два несовместимых интерфейса.
+
+Шаблон «Адаптер» позволяет помещать несовместимый объект в обёртку,
+чтобы он оказался совместимым с другим классом.
+
+Примеры применения паттерна проектирования Adapter в JDK:
+ java.util.Arrays#asList()
+ java.io.InputStreamReader(InputStream) (возвращает Reader)
+ java.io.OutputStreamWriter(OutputStream) (возвращает Writer)
+ javax.xml.bind.annotation.adapters.XmlAdapter#marshal() and #unmarshal()

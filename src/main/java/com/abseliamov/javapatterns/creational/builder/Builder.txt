@@ -1,0 +1,16 @@
+Builder (Строитель) - используется для создания сложного объекта
+                      с использованием простых объектов.
+Постепенно он создает больший объект от малого и простого объекта.
+
+Шаблон позволяет создавать разные свойства объекта, избегая загрязнения конструктора
+(constructor pollution). Это полезно, когда у объекта может быть несколько свойств.
+Или когда создание объекта состоит из большого количества этапов.
+
+Шаблон «Строитель» предназначен для поиска решения проблемы антипаттерна Telescoping constructor.
+
+Примеры применения паттерна проектирования Builder в JDK:
+    java.lang.StringBuilder#append() (несинхронизирован)
+    java.lang.StringBuffer#append() (синхронизирован)
+    java.nio.ByteBuffer#put() (а также CharBuffer, ShortBuffer, IntBuffer, LongBuffer, FloatBuffer и DoubleBuffer)
+    javax.swing.GroupLayout.Group#addComponent()
+    Все реализации java.lang.Appendable

@@ -1,0 +1,12 @@
+Facade (Фасад) - беспечивает простой интерфейс для клиента, и клиент использует интерфейс
+                для взаимодействия с системой.
+
+Шаблон «Фасад» предоставляет упрощённый интерфейс для сложной подсистемы,
+например библиотеки классов.
+
+Примеры применения паттерна проектирования Facade в JDK:
+    javax.faces.context.FacesContext, внутренне использует LifeCycle, ViewHandler,
+    NavigationHandler и много других не заставляя пользователя заботиться об этом.
+
+    javax.faces.context.ExternalContext, использует ServletContext, HttpSession,
+    HttpServletRequest, HttpServletResponse, и др.

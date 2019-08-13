@@ -1,0 +1,15 @@
+Decorator (Декоратор) - добавляет новые функциональные возможности существующего объекта
+                        без привязки его структуры.
+
+Шаблон «Декоратор» позволяет во время выполнения динамически изменять поведение объекта,
+обёртывая его в объект класса «декоратора».
+
+Шаблон часто используется для соблюдения принципа единственной обязанности
+(Single Responsibility Principle), поскольку позволяет разделить функциональность между
+классами для решения конкретных задач.
+
+Примеры применения паттерна проектирования Decorator в JDK:
+    Все подклассы of java.io.InputStream, OutputStream, Reader and Writer
+    имеют конструкторы того же типа.
+    java.util.Collections, методы the checkedXXX(), synchronizedXXX() и unmodifiableXXX().
+    javax.servlet.http.HttpServletRequestWrapper и HttpServletResponseWrapper

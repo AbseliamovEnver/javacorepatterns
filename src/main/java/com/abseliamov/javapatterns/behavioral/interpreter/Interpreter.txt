@@ -1,0 +1,7 @@
+Interpreter (Интерпретатор) - определяет грамматику простого языка для проблемной области.
+
+Примеры применения паттерна проектирования Interpreter в JDK:
+    java.util.Pattern
+    java.text.Normalizer
+    наследники  java.text.Format
+    наследники  javax.el.ELResolver

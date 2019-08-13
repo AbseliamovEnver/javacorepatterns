@@ -1,0 +1,12 @@
+Strategy (Стратегия) - алгоритм стратегии может быть изменен во время выполнения программы.
+
+Очень похож на паттерн State
+
+Примеры применения паттерна проектирования Strategy в JDK:
+    java.util.Comparator#compare(), например, выполняется методом Collections#sort()
+
+    javax.servlet.http.HttpServlet, метод service() и методы doXXX()
+    принимают как параметр HttpServletRequest и HttpServletResponse реализованный объект
+    должен обработать их, при этом не используя параметры в качестве переменных экземпляра
+
+    javax.servlet.Filter#doFilter()
